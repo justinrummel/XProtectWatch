@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Label</key>
+	<string>com.xprotectwatch.XProtect</string>
+	<key>ProgramArguments</key>
+	<array>
+		<string>/usr/local/bin/watchProtect.sh</string>
+	</array>
+	<key>RunAtLoad</key>
+	<true/>
+	<key>WatchPaths</key>
+	<array>
+		<string>/System/Library/CoreServices/CoreTypes.bundle/Contents/Resources/XProtect.plist</string>
+		<string>/System/Library/CoreServices/CoreTypes.bundle/Contents/Resources/XProtect.meta.plist</string>
+	</array>
+</dict>
+</plist>
