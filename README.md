@@ -10,7 +10,7 @@ Copy the files as needed:
 *	/usr/local/bin/watchProtect.sh
 *	~/Library/LaunchAgents/com.xprotectwatch.XProtect.plist
 
-Be sure to chmod +x /usr/local/bin/watchProtect.sh so it's an executable script and that the plist permissions are ```rw-r--r--  1 username  staff```
+Be sure to chmod +x /usr/local/bin/watchProtect.sh so it's an executable script and that the plist permissions are ```rwxr-xr-x  1 username  staff```
 
 Once the files are copied to your computer in the correct locations you can load the LaunchDaemon via:
 
